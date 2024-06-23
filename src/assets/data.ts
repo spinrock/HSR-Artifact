@@ -641,4 +641,93 @@ export const masterData: CharactorArtifactData[] = [
     mainOption: '速度',
     artifactId: '007'
   },
-];
+  {
+    charactorName: '銀狼',
+    part: '胴体',
+    mainOption: '会心率',
+    artifactId: '002'
+  },
+  {
+    charactorName: '銀狼',
+    part: '胴体',
+    mainOption: '効果命中',
+    artifactId: '002'
+  },
+  {
+    charactorName: '銀狼',
+    part: '脚部',
+    mainOption: '速度',
+    artifactId: '002'
+  },
+  {
+    charactorName: '銀狼',
+    part: '胴体',
+    mainOption: '効果命中',
+    artifactId: '013'
+  },
+  {
+    charactorName: '銀狼',
+    part: '脚部',
+    mainOption: '速度',
+    artifactId: '013'
+  },
+  {
+    charactorName: '銀狼',
+    part: '胴体',
+    mainOption: '効果命中',
+    artifactId: '014'
+  },
+  {
+    charactorName: '銀狼',
+    part: '脚部',
+    mainOption: '速度',
+    artifactId: '014'
+  },
+  {
+    charactorName: 'レイシオ',
+    part: '胴体',
+    mainOption: '会心率',
+    artifactId: '015'
+  },
+  {
+    charactorName: 'レイシオ',
+    part: '胴体',
+    mainOption: '会心ダメージ',
+    artifactId: '015'
+  },
+  {
+    charactorName: 'レイシオ',
+    part: '脚部',
+    mainOption: '速度',
+    artifactId: '015'
+  },
+  {
+    charactorName: 'レイシオ',
+    part: '脚部',
+    mainOption: '攻撃力%',
+    artifactId: '015'
+  },
+  {
+    charactorName: 'レイシオ',
+    part: '胴体',
+    mainOption: '会心率',
+    artifactId: '017'
+  },
+  {
+    charactorName: 'レイシオ',
+    part: '胴体',
+    mainOption: '会心ダメージ',
+    artifactId: '017'
+  },
+  {
+    charactorName: 'レイシオ',
+    part: '脚部',
+    mainOption: '速度',
+    artifactId: '017'
+  },
+  {
+    charactorName: 'レイシオ',
+    part: '脚部',
+    mainOption: '攻撃力%',
+    artifactId: '017'
+  },];
