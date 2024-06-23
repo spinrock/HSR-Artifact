@@ -1169,4 +1169,88 @@ export const masterData: CharactorArtifactData[] = [
     mainOption: '速度',
     artifactId: '017'
   },
+  {
+    charactorName: 'セーバル',
+    part: '胴体',
+    mainOption: '会心率',
+    artifactId: '017'
+  },
+  {
+    charactorName: 'セーバル',
+    part: '胴体',
+    mainOption: '会心ダメージ',
+    artifactId: '017'
+  },
+  {
+    charactorName: 'セーバル',
+    part: '脚部',
+    mainOption: '速度',
+    artifactId: '017'
+  },
+  {
+    charactorName: 'セーバル',
+    part: '胴体',
+    mainOption: '会心率',
+    artifactId: '010'
+  },
+  {
+    charactorName: 'セーバル',
+    part: '胴体',
+    mainOption: '会心ダメージ',
+    artifactId: '010'
+  },
+  {
+    charactorName: 'セーバル',
+    part: '脚部',
+    mainOption: '速度',
+    artifactId: '010'
+  },
+  {
+    charactorName: 'ヴェルト',
+    part: '胴体',
+    mainOption: '会心率',
+    artifactId: '012'
+  },
+  {
+    charactorName: 'ヴェルト',
+    part: '胴体',
+    mainOption: '会心ダメージ',
+    artifactId: '012'
+  },
+  {
+    charactorName: 'ヴェルト',
+    part: '脚部',
+    mainOption: '速度',
+    artifactId: '012'
+  },
+  {
+    charactorName: 'ヴェルト',
+    part: '脚部',
+    mainOption: '攻撃力%',
+    artifactId: '012'
+  },
+  {
+    charactorName: 'ヴェルト',
+    part: '胴体',
+    mainOption: '会心率',
+    artifactId: '017'
+  },
+  {
+    charactorName: 'ヴェルト',
+    part: '胴体',
+    mainOption: '会心ダメージ',
+    artifactId: '017'
+  },
+  {
+    charactorName: 'ヴェルト',
+    part: '脚部',
+    mainOption: '速度',
+    artifactId: '017'
+  },
+  {
+    charactorName: 'ヴェルト',
+    part: '脚部',
+    mainOption: '攻撃力%',
+    artifactId: '017'
+  },
 ];
