@@ -1337,5 +1337,82 @@ export const masterData: CharactorArtifactData[] = [
     mainOption: '速度',
     artifactId: '007'
   },
-
+  {
+    charactorName: '寒鴉',
+    part: '胴体',
+    mainOption: 'HP%',
+    artifactId: '013'
+  },
+  {
+    charactorName: '寒鴉',
+    part: '胴体',
+    mainOption: '防御力%',
+    artifactId: '013'
+  },
+  {
+    charactorName: '寒鴉',
+    part: '脚部',
+    mainOption: '速度',
+    artifactId: '013'
+  },
+  {
+    charactorName: '寒鴉',
+    part: '胴体',
+    mainOption: 'HP%',
+    artifactId: '014'
+  },
+  {
+    charactorName: '寒鴉',
+    part: '胴体',
+    mainOption: '防御力%',
+    artifactId: '014'
+  },
+  {
+    charactorName: '寒鴉',
+    part: '脚部',
+    mainOption: '速度',
+    artifactId: '014'
+  },
+  {
+    charactorName: '寒鴉',
+    part: '胴体',
+    mainOption: 'HP%',
+    artifactId: '002'
+  },
+  {
+    charactorName: '寒鴉',
+    part: '胴体',
+    mainOption: '防御力%',
+    artifactId: '002'
+  },
+  {
+    charactorName: '寒鴉',
+    part: '脚部',
+    mainOption: '速度',
+    artifactId: '002'
+  },
+  {
+    charactorName: '素裳',
+    part: '胴体',
+    mainOption: '会心率',
+    artifactId: '005'
+  },
+  {
+    charactorName: '素裳',
+    part: '脚部',
+    mainOption: '速度',
+    artifactId: '005'
+  },
+  {
+    charactorName: '素裳',
+    part: '胴体',
+    mainOption: '会心率',
+    artifactId: '006'
+  },
+  {
+    charactorName: '素裳',
+    part: '脚部',
+    mainOption: '速度',
+    artifactId: '006'
+  },
 ];
