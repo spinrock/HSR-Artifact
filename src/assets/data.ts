@@ -1001,4 +1001,88 @@ export const masterData: CharactorArtifactData[] = [
     mainOption: '速度',
     artifactId: '003'
   },
+  {
+    charactorName: 'ナターシャ',
+    part: '胴体',
+    mainOption: '治癒量',
+    artifactId: '003'
+  },
+  {
+    charactorName: 'ナターシャ',
+    part: '脚部',
+    mainOption: 'HP%',
+    artifactId: '003'
+  },
+  {
+    charactorName: 'ナターシャ',
+    part: '脚部',
+    mainOption: '速度',
+    artifactId: '003'
+  },
+  {
+    charactorName: 'ナターシャ',
+    part: '胴体',
+    mainOption: '治癒量',
+    artifactId: '014'
+  },
+  {
+    charactorName: 'ナターシャ',
+    part: '脚部',
+    mainOption: 'HP%',
+    artifactId: '014'
+  },
+  {
+    charactorName: 'ナターシャ',
+    part: '脚部',
+    mainOption: '速度',
+    artifactId: '014'
+  },
+  {
+    charactorName: 'アスター',
+    part: '胴体',
+    mainOption: 'HP%',
+    artifactId: '006'
+  },
+  {
+    charactorName: 'アスター',
+    part: '脚部',
+    mainOption: '速度',
+    artifactId: '006'
+  },
+  {
+    charactorName: 'アスター',
+    part: '胴体',
+    mainOption: 'HP%',
+    artifactId: '013'
+  },
+  {
+    charactorName: 'アスター',
+    part: '脚部',
+    mainOption: '速度',
+    artifactId: '013'
+  },
+  {
+    charactorName: 'アスター',
+    part: '胴体',
+    mainOption: 'HP%',
+    artifactId: '014'
+  },
+  {
+    charactorName: 'アスター',
+    part: '脚部',
+    mainOption: '速度',
+    artifactId: '014'
+  },
+  {
+    charactorName: 'アスター',
+    part: '胴体',
+    mainOption: 'HP%',
+    artifactId: '002'
+  },
+  {
+    charactorName: 'アスター',
+    part: '脚部',
+    mainOption: '速度',
+    artifactId: '002'
+  },
 ];
