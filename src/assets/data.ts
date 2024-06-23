@@ -210,6 +210,102 @@ export const masterData: CharactorArtifactData[] = [
     mainOption: '速度',
     artifactId: '007'
   },
+  {
+    charactorName: 'トパーズ',
+    part: '胴体',
+    mainOption: '会心率',
+    artifactId: '015'
+  },
+  {
+    charactorName: 'トパーズ',
+    part: '胴体',
+    mainOption: '会心ダメージ',
+    artifactId: '015'
+  },
+  {
+    charactorName: 'トパーズ',
+    part: '脚部',
+    mainOption: '速度',
+    artifactId: '015'
+  },
+  {
+    charactorName: 'トパーズ',
+    part: '脚部',
+    mainOption: '攻撃力%',
+    artifactId: '015'
+  },
+  {
+    charactorName: 'トパーズ',
+    part: '胴体',
+    mainOption: '会心率',
+    artifactId: '017'
+  },
+  {
+    charactorName: 'トパーズ',
+    part: '胴体',
+    mainOption: '会心ダメージ',
+    artifactId: '017'
+  },
+  {
+    charactorName: 'トパーズ',
+    part: '脚部',
+    mainOption: '速度',
+    artifactId: '017'
+  },
+  {
+    charactorName: 'トパーズ',
+    part: '脚部',
+    mainOption: '攻撃力%',
+    artifactId: '017'
+  },
+  {
+    charactorName: '姫子',
+    part: '胴体',
+    mainOption: '会心率',
+    artifactId: '015'
+  },
+  {
+    charactorName: '姫子',
+    part: '胴体',
+    mainOption: '会心ダメージ',
+    artifactId: '015'
+  },
+  {
+    charactorName: '姫子',
+    part: '脚部',
+    mainOption: '速度',
+    artifactId: '015'
+  },
+  {
+    charactorName: '姫子',
+    part: '脚部',
+    mainOption: '攻撃力%',
+    artifactId: '015'
+  },
+  {
+    charactorName: '姫子',
+    part: '胴体',
+    mainOption: '会心率',
+    artifactId: '011'
+  },
+  {
+    charactorName: '姫子',
+    part: '胴体',
+    mainOption: '会心ダメージ',
+    artifactId: '011'
+  },
+  {
+    charactorName: '姫子',
+    part: '脚部',
+    mainOption: '速度',
+    artifactId: '011'
+  },
+  {
+    charactorName: '姫子',
+    part: '脚部',
+    mainOption: '攻撃力%',
+    artifactId: '011'
+  },  
 ]
 
 
