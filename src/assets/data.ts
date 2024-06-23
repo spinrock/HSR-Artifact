@@ -730,4 +730,131 @@ export const masterData: CharactorArtifactData[] = [
     part: '脚部',
     mainOption: '攻撃力%',
     artifactId: '017'
-  },];
+  },
+  {
+    charactorName: 'アベンチュリン',
+    part: '胴体',
+    mainOption: '防御力%',
+    artifactId: '017'
+  },
+  {
+    charactorName: 'アベンチュリン',
+    part: '胴体',
+    mainOption: '会心ダメージ',
+    artifactId: '017'
+  },
+  {
+    charactorName: 'アベンチュリン',
+    part: '脚部',
+    mainOption: '速度',
+    artifactId: '017'
+  },
+  {
+    charactorName: 'アベンチュリン',
+    part: '胴体',
+    mainOption: '防御力%',
+    artifactId: '009'
+  },
+  {
+    charactorName: 'アベンチュリン',
+    part: '胴体',
+    mainOption: '会心ダメージ',
+    artifactId: '009'
+  },
+  {
+    charactorName: 'アベンチュリン',
+    part: '脚部',
+    mainOption: '速度',
+    artifactId: '009'
+  },
+  {
+    charactorName: 'アベンチュリン',
+    part: '胴体',
+    mainOption: '防御力%',
+    artifactId: '015'
+  },
+  {
+    charactorName: 'アベンチュリン',
+    part: '胴体',
+    mainOption: '会心ダメージ',
+    artifactId: '015'
+  },
+  {
+    charactorName: 'アベンチュリン',
+    part: '脚部',
+    mainOption: '速度',
+    artifactId: '015'
+  },
+  {
+    charactorName: 'ペラ',
+    part: '胴体',
+    mainOption: 'HP%',
+    artifactId: '013'
+  },
+  {
+    charactorName: 'ペラ',
+    part: '胴体',
+    mainOption: '効果命中',
+    artifactId: '013'
+  },
+  {
+    charactorName: 'ペラ',
+    part: '脚部',
+    mainOption: '速度',
+    artifactId: '013'
+  },
+  {
+    charactorName: 'ペラ',
+    part: '胴体',
+    mainOption: 'HP%',
+    artifactId: '014'
+  },
+  {
+    charactorName: 'ペラ',
+    part: '胴体',
+    mainOption: '効果命中',
+    artifactId: '014'
+  },
+  {
+    charactorName: 'ペラ',
+    part: '脚部',
+    mainOption: '速度',
+    artifactId: '014'
+  },
+  {
+    charactorName: 'ペラ',
+    part: '胴体',
+    mainOption: 'HP%',
+    artifactId: '002'
+  },
+  {
+    charactorName: 'ペラ',
+    part: '胴体',
+    mainOption: '効果命中',
+    artifactId: '002'
+  },
+  {
+    charactorName: 'ペラ',
+    part: '脚部',
+    mainOption: '速度',
+    artifactId: '002'
+  },
+  {
+    charactorName: 'ペラ',
+    part: '胴体',
+    mainOption: 'HP%',
+    artifactId: '007'
+  },
+  {
+    charactorName: 'ペラ',
+    part: '胴体',
+    mainOption: '効果命中',
+    artifactId: '007'
+  },
+  {
+    charactorName: 'ペラ',
+    part: '脚部',
+    mainOption: '速度',
+    artifactId: '007'
+  },
+];
