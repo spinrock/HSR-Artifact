@@ -1,4 +1,4 @@
-import type { ArtifactType, ArtifactUsage, CharactorArtifactData } from "@/interfaces/Artifact"
+import type { ArtifactType, CharactorArtifactData } from "@/interfaces/Artifact"
 
 export const artifactTypeList: ArtifactType[] = [
   {
