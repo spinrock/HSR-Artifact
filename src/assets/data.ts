@@ -305,7 +305,91 @@ export const masterData: CharactorArtifactData[] = [
     part: '脚部',
     mainOption: '攻撃力%',
     artifactId: '011'
-  },  
+  },
+  {
+    charactorName: '鏡流',
+    part: '胴体',
+    mainOption: '会心率',
+    artifactId: '001'
+  },
+  {
+    charactorName: '鏡流',
+    part: '胴体',
+    mainOption: '会心ダメージ',
+    artifactId: '001'
+  },
+  {
+    charactorName: '鏡流',
+    part: '脚部',
+    mainOption: '速度',
+    artifactId: '001'
+  },
+  {
+    charactorName: '鏡流',
+    part: '脚部',
+    mainOption: '攻撃力%',
+    artifactId: '001'
+  },
+  {
+    charactorName: '鏡流',
+    part: '胴体',
+    mainOption: '会心率',
+    artifactId: '004'
+  },
+  {
+    charactorName: '鏡流',
+    part: '胴体',
+    mainOption: '会心ダメージ',
+    artifactId: '004'
+  },
+  {
+    charactorName: '鏡流',
+    part: '脚部',
+    mainOption: '速度',
+    artifactId: '004'
+  },
+  {
+    charactorName: '鏡流',
+    part: '脚部',
+    mainOption: '攻撃力%',
+    artifactId: '004'
+  },
+  {
+    charactorName: 'ジェパード',
+    part: '胴体',
+    mainOption: '防御力%',
+    artifactId: '009'
+  },
+  {
+    charactorName: 'ジェパード',
+    part: '脚部',
+    mainOption: '速度',
+    artifactId: '009'
+  },
+  {
+    charactorName: 'ジェパード',
+    part: '脚部',
+    mainOption: '防御力%',
+    artifactId: '009'
+  },
+  {
+    charactorName: 'ジェパード',
+    part: '胴体',
+    mainOption: '防御力%',
+    artifactId: '014'
+  },
+  {
+    charactorName: 'ジェパード',
+    part: '脚部',
+    mainOption: '速度',
+    artifactId: '014'
+  },
+  {
+    charactorName: 'ジェパード',
+    part: '脚部',
+    mainOption: '防御力%',
+    artifactId: '014'
+  },
 ]
 
 
