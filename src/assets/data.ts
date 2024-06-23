@@ -390,6 +390,48 @@ export const masterData: CharactorArtifactData[] = [
     mainOption: '防御力%',
     artifactId: '014'
   },
+  {
+    charactorName: '黄泉',
+    part: '胴体',
+    mainOption: '会心率',
+    artifactId: '017'
+  },
+  {
+    charactorName: '黄泉',
+    part: '胴体',
+    mainOption: '会心ダメージ',
+    artifactId: '017'
+  },
+  {
+    charactorName: '黄泉',
+    part: '脚部',
+    mainOption: '攻撃力%',
+    artifactId: '017'
+  },
+  {
+    charactorName: '白露',
+    part: '胴体',
+    mainOption: '治癒量',
+    artifactId: '003'
+  },
+  {
+    charactorName: '白露',
+    part: '脚部',
+    mainOption: '速度',
+    artifactId: '003'
+  },
+  {
+    charactorName: '白露',
+    part: '胴体',
+    mainOption: '治癒量',
+    artifactId: '013'
+  },
+  {
+    charactorName: '白露',
+    part: '脚部',
+    mainOption: '速度',
+    artifactId: '013'
+  },
 ]
 
 
