@@ -432,7 +432,125 @@ export const masterData: CharactorArtifactData[] = [
     mainOption: '速度',
     artifactId: '013'
   },
-]
+  {
+    charactorName: '白露',
+    part: '胴体',
+    mainOption: '治癒量',
+    artifactId: '014'
+  },
+  {
+    charactorName: '白露',
+    part: '脚部',
+    mainOption: '速度',
+    artifactId: '014'
+  },
+  {
+    charactorName: 'カフカ',
+    part: '胴体',
+    mainOption: '攻撃力%',
+    artifactId: '016'
+  },
+  {
+    charactorName: 'カフカ',
+    part: '脚部',
+    mainOption: '速度',
+    artifactId: '016'
+  },
+  {
+    charactorName: 'ブラックスワン',
+    part: '胴体',
+    mainOption: '効果命中',
+    artifactId: '016'
+  },
+  {
+    charactorName: 'ブラックスワン',
+    part: '脚部',
+    mainOption: '速度',
+    artifactId: '016'
+  },
+  {
+    charactorName: 'ブラックスワン',
+    part: '脚部',
+    mainOption: '攻撃力%',
+    artifactId: '016'
+  },
+  {
+    charactorName: 'フォフォ',
+    part: '胴体',
+    mainOption: '治癒量',
+    artifactId: '013'
+  },
+  {
+    charactorName: 'フォフォ',
+    part: '胴体',
+    mainOption: 'HP%',
+    artifactId: '013'
+  },
+  {
+    charactorName: 'フォフォ',
+    part: '脚部',
+    mainOption: '速度',
+    artifactId: '013'
+  },
+  {
+    charactorName: 'フォフォ',
+    part: '胴体',
+    mainOption: '治癒量',
+    artifactId: '014'
+  },
+  {
+    charactorName: 'フォフォ',
+    part: '胴体',
+    mainOption: 'HP%',
+    artifactId: '014'
+  },
+  {
+    charactorName: 'フォフォ',
+    part: '脚部',
+    mainOption: '速度',
+    artifactId: '014'
+  },  {
+    charactorName: 'フォフォ',
+    part: '胴体',
+    mainOption: '治癒量',
+    artifactId: '002'
+  },
+  {
+    charactorName: 'フォフォ',
+    part: '胴体',
+    mainOption: 'HP%',
+    artifactId: '002'
+  },
+  {
+    charactorName: 'フォフォ',
+    part: '脚部',
+    mainOption: '速度',
+    artifactId: '002'
+  },
+  {
+    charactorName: 'ブローニャ',
+    part: '胴体',
+    mainOption: '会心ダメージ',
+    artifactId: '014'
+  },
+  {
+    charactorName: 'ブローニャ',
+    part: '脚部',
+    mainOption: '速度',
+    artifactId: '014'
+  },
+  {
+    charactorName: 'ブローニャ',
+    part: '胴体',
+    mainOption: '会心ダメージ',
+    artifactId: '002'
+  },
+  {
+    charactorName: 'ブローニャ',
+    part: '脚部',
+    mainOption: '速度',
+    artifactId: '002'
+  },]
 
 
 
