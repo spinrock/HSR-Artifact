@@ -857,4 +857,82 @@ export const masterData: CharactorArtifactData[] = [
     mainOption: '速度',
     artifactId: '007'
   },
+  {
+    charactorName: 'ヘルタ',
+    part: '胴体',
+    mainOption: '会心率',
+    artifactId: '001'
+  },
+  {
+    charactorName: 'ヘルタ',
+    part: '胴体',
+    mainOption: '会心ダメージ',
+    artifactId: '001'
+  },
+  {
+    charactorName: 'ヘルタ',
+    part: '脚部',
+    mainOption: '速度',
+    artifactId: '001'
+  },
+  {
+    charactorName: 'ヘルタ',
+    part: '胴体',
+    mainOption: '会心率',
+    artifactId: '015'
+  },
+  {
+    charactorName: 'ヘルタ',
+    part: '胴体',
+    mainOption: '会心ダメージ',
+    artifactId: '015'
+  },
+  {
+    charactorName: 'ヘルタ',
+    part: '脚部',
+    mainOption: '速度',
+    artifactId: '015'
+  },
+  {
+    charactorName: '停雲',
+    part: '胴体',
+    mainOption: '攻撃力%',
+    artifactId: '014'
+  },
+  {
+    charactorName: '停雲',
+    part: '胴体',
+    mainOption: 'HP%',
+    artifactId: '014'
+  },
+  {
+    charactorName: '停雲',
+    part: '脚部',
+    mainOption: '速度',
+    artifactId: '014'
+  },
+  {
+    charactorName: 'サンポ',
+    part: '胴体',
+    mainOption: '攻撃力%',
+    artifactId: '016'
+  },
+  {
+    charactorName: 'サンポ',
+    part: '胴体',
+    mainOption: '効果命中',
+    artifactId: '016'
+  },
+  {
+    charactorName: 'サンポ',
+    part: '脚部',
+    mainOption: '速度',
+    artifactId: '016'
+  },
+  {
+    charactorName: 'サンポ',
+    part: '脚部',
+    mainOption: '攻撃力%',
+    artifactId: '016'
+  },
 ];
