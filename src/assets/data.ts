@@ -1559,4 +1559,100 @@ export const masterData: CharactorArtifactData[] = [
     mainOption: '攻撃力%',
     artifactId: '013'
   },
+  {
+    charactorName: 'クラーラ',
+    part: '胴体',
+    mainOption: '会心率',
+    artifactId: '013'
+  },
+  {
+    charactorName: 'クラーラ',
+    part: '胴体',
+    mainOption: '会心ダメージ',
+    artifactId: '013'
+  },
+  {
+    charactorName: 'クラーラ',
+    part: '脚部',
+    mainOption: 'HP%',
+    artifactId: '013'
+  },
+  {
+    charactorName: 'クラーラ',
+    part: '脚部',
+    mainOption: '攻撃力%',
+    artifactId: '013'
+  },
+  {
+    charactorName: 'クラーラ',
+    part: '胴体',
+    mainOption: '会心率',
+    artifactId: '005'
+  },
+  {
+    charactorName: 'クラーラ',
+    part: '胴体',
+    mainOption: '会心ダメージ',
+    artifactId: '005'
+  },
+  {
+    charactorName: 'クラーラ',
+    part: '脚部',
+    mainOption: 'HP%',
+    artifactId: '005'
+  },
+  {
+    charactorName: 'クラーラ',
+    part: '脚部',
+    mainOption: '攻撃力%',
+    artifactId: '005'
+  },
+  {
+    charactorName: 'クラーラ',
+    part: '胴体',
+    mainOption: '会心率',
+    artifactId: '015'
+  },
+  {
+    charactorName: 'クラーラ',
+    part: '胴体',
+    mainOption: '会心ダメージ',
+    artifactId: '015'
+  },
+  {
+    charactorName: 'クラーラ',
+    part: '脚部',
+    mainOption: 'HP%',
+    artifactId: '015'
+  },
+  {
+    charactorName: 'クラーラ',
+    part: '脚部',
+    mainOption: '攻撃力%',
+    artifactId: '015'
+  },
+  {
+    charactorName: 'クラーラ',
+    part: '胴体',
+    mainOption: '会心率',
+    artifactId: '016'
+  },
+  {
+    charactorName: 'クラーラ',
+    part: '胴体',
+    mainOption: '会心ダメージ',
+    artifactId: '016'
+  },
+  {
+    charactorName: 'クラーラ',
+    part: '脚部',
+    mainOption: 'HP%',
+    artifactId: '016'
+  },
+  {
+    charactorName: 'クラーラ',
+    part: '脚部',
+    mainOption: '攻撃力%',
+    artifactId: '016'
+  },
 ];
