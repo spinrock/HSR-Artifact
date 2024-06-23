@@ -1085,4 +1085,88 @@ export const masterData: CharactorArtifactData[] = [
     mainOption: '速度',
     artifactId: '002'
   },
+  {
+    charactorName: '三月なのか',
+    part: '胴体',
+    mainOption: '防御力%',
+    artifactId: '009'
+  },
+  {
+    charactorName: '三月なのか',
+    part: '脚部',
+    mainOption: '速度',
+    artifactId: '009'
+  },
+  {
+    charactorName: '三月なのか',
+    part: '胴体',
+    mainOption: '防御力%',
+    artifactId: '013'
+  },
+  {
+    charactorName: '三月なのか',
+    part: '脚部',
+    mainOption: '速度',
+    artifactId: '013'
+  },
+  {
+    charactorName: '三月なのか',
+    part: '胴体',
+    mainOption: '防御力%',
+    artifactId: '014'
+  },
+  {
+    charactorName: '三月なのか',
+    part: '脚部',
+    mainOption: '速度',
+    artifactId: '014'
+  },
+  {
+    charactorName: 'ルカ',
+    part: '胴体',
+    mainOption: '攻撃力%',
+    artifactId: '016'
+  },
+  {
+    charactorName: 'ルカ',
+    part: '脚部',
+    mainOption: '速度',
+    artifactId: '016'
+  },
+  {
+    charactorName: '丹恒',
+    part: '胴体',
+    mainOption: '会心率',
+    artifactId: '002'
+  },
+  {
+    charactorName: '丹恒',
+    part: '胴体',
+    mainOption: '会心ダメージ',
+    artifactId: '002'
+  },
+  {
+    charactorName: '丹恒',
+    part: '脚部',
+    mainOption: '速度',
+    artifactId: '002'
+  },
+  {
+    charactorName: '丹恒',
+    part: '胴体',
+    mainOption: '会心率',
+    artifactId: '017'
+  },
+  {
+    charactorName: '丹恒',
+    part: '胴体',
+    mainOption: '会心ダメージ',
+    artifactId: '017'
+  },
+  {
+    charactorName: '丹恒',
+    part: '脚部',
+    mainOption: '速度',
+    artifactId: '017'
+  },
 ];
