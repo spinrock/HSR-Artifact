@@ -550,58 +550,95 @@ export const masterData: CharactorArtifactData[] = [
     part: '脚部',
     mainOption: '速度',
     artifactId: '002'
-  },]
-
-
-
-export const bodySampleData:ArtifactUsage[] = [
-  {
-    mainOption: '会心率',
-    usage: 1
   },
   {
+    charactorName: '花火',
+    part: '胴体',
     mainOption: '会心ダメージ',
-    usage: 1
+    artifactId: '014'
   },
   {
-    mainOption: 'HP%',
-    usage: 0
-  },
-  {
-    mainOption: '攻撃力%',
-    usage: 2
-  },
-  {
-    mainOption: '防御力%',
-    usage: 0
-  },
-  {
-    mainOption: '治癒量',
-    usage: 1
-  },
-  {
-    mainOption: '効果命中',
-    usage: 0
-  }
-];
-
-export const legSampleData: ArtifactUsage[] = [
-  {
-    mainOption: 'HP%',
-    usage: 0
-  },
-  {
-    mainOption: '攻撃力%',
-    usage: 0
-  },
-  {
-    mainOption: '防御力%',
-    usage: 0
-  },
-  {
+    charactorName: '花火',
+    part: '脚部',
     mainOption: '速度',
-    usage: 4
+    artifactId: '014'
   },
-
+  {
+    charactorName: '花火',
+    part: '胴体',
+    mainOption: '会心ダメージ',
+    artifactId: '002'
+  },
+  {
+    charactorName: '花火',
+    part: '脚部',
+    mainOption: '速度',
+    artifactId: '002'
+  },
+  {
+    charactorName: '花火',
+    part: '胴体',
+    mainOption: '会心ダメージ',
+    artifactId: '013'
+  },
+  {
+    charactorName: '花火',
+    part: '脚部',
+    mainOption: '速度',
+    artifactId: '013'
+  },
+  {
+    charactorName: '符玄',
+    part: '胴体',
+    mainOption: 'HP%',
+    artifactId: '013'
+  },
+  {
+    charactorName: '符玄',
+    part: '胴体',
+    mainOption: '防御力%',
+    artifactId: '013'
+  },
+  {
+    charactorName: '符玄',
+    part: '脚部',
+    mainOption: '速度',
+    artifactId: '013'
+  },
+  {
+    charactorName: '符玄',
+    part: '胴体',
+    mainOption: 'HP%',
+    artifactId: '014'
+  },
+  {
+    charactorName: '符玄',
+    part: '胴体',
+    mainOption: '防御力%',
+    artifactId: '014'
+  },
+  {
+    charactorName: '符玄',
+    part: '脚部',
+    mainOption: '速度',
+    artifactId: '014'
+  },
+  {
+    charactorName: '符玄',
+    part: '胴体',
+    mainOption: 'HP%',
+    artifactId: '007'
+  },
+  {
+    charactorName: '符玄',
+    part: '胴体',
+    mainOption: '防御力%',
+    artifactId: '007'
+  },
+  {
+    charactorName: '符玄',
+    part: '脚部',
+    mainOption: '速度',
+    artifactId: '007'
+  },
 ];
-
