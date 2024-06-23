@@ -935,4 +935,70 @@ export const masterData: CharactorArtifactData[] = [
     mainOption: '攻撃力%',
     artifactId: '016'
   },
+  {
+    charactorName: '青雀',
+    part: '胴体',
+    mainOption: '会心率',
+    artifactId: '008'
+  },
+  {
+    charactorName: '青雀',
+    part: '脚部',
+    mainOption: '攻撃力%',
+    artifactId: '008'
+  },
+  {
+    charactorName: 'リンクス',
+    part: '胴体',
+    mainOption: '治癒量',
+    artifactId: '014'
+  },
+  {
+    charactorName: 'リンクス',
+    part: '胴体',
+    mainOption: 'HP%',
+    artifactId: '014'
+  },
+  {
+    charactorName: 'リンクス',
+    part: '脚部',
+    mainOption: '速度',
+    artifactId: '014'
+  },
+  {
+    charactorName: 'リンクス',
+    part: '胴体',
+    mainOption: '治癒量',
+    artifactId: '013'
+  },
+  {
+    charactorName: 'リンクス',
+    part: '胴体',
+    mainOption: 'HP%',
+    artifactId: '013'
+  },
+  {
+    charactorName: 'リンクス',
+    part: '脚部',
+    mainOption: '速度',
+    artifactId: '013'
+  },
+  {
+    charactorName: 'リンクス',
+    part: '胴体',
+    mainOption: '治癒量',
+    artifactId: '003'
+  },
+  {
+    charactorName: 'リンクス',
+    part: '胴体',
+    mainOption: 'HP%',
+    artifactId: '003'
+  },
+  {
+    charactorName: 'リンクス',
+    part: '脚部',
+    mainOption: '速度',
+    artifactId: '003'
+  },
 ];
