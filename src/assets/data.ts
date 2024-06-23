@@ -132,6 +132,84 @@ export const masterData: CharactorArtifactData[] = [
     mainOption: '速度',
     artifactId: '018'
   },
+  {
+    charactorName: '開拓者(壊滅)',
+    part: '胴体',
+    mainOption: '会心率',
+    artifactId: '005'
+  },
+  {
+    charactorName: '開拓者(壊滅)',
+    part: '胴体',
+    mainOption: '会心ダメージ',
+    artifactId: '005'
+  },
+  {
+    charactorName: '開拓者(壊滅)',
+    part: '脚部',
+    mainOption: '速度',
+    artifactId: '005'
+  },
+  {
+    charactorName: 'ロビン',
+    part: '胴体',
+    mainOption: '攻撃力%',
+    artifactId: '004'
+  },
+  {
+    charactorName: 'ロビン',
+    part: '脚部',
+    mainOption: '攻撃力%',
+    artifactId: '004'
+  },
+  {
+    charactorName: 'ロビン',
+    part: '胴体',
+    mainOption: '攻撃力%',
+    artifactId: '016'
+  }, 
+  {
+    charactorName: 'ロビン',
+    part: '脚部',
+    mainOption: '攻撃力%',
+    artifactId: '016'
+  },
+  {
+    charactorName: 'ロビン',
+    part: '胴体',
+    mainOption: '攻撃力%',
+    artifactId: '020'
+  }, 
+  {
+    charactorName: 'ロビン',
+    part: '脚部',
+    mainOption: '攻撃力%',
+    artifactId: '020'
+  },
+  {
+    charactorName: '開拓者(存護)',
+    part: '胴体',
+    mainOption: '防御力%',
+    artifactId: '009'
+  },
+  {
+    charactorName: '開拓者(存護)',
+    part: '脚部',
+    mainOption: '速度',
+    artifactId: '009'
+  },
+  {
+    charactorName: '開拓者(存護)',
+    part: '胴体',
+    mainOption: '防御力%',
+    artifactId: '007'
+  },
+  {
+    charactorName: '開拓者(存護)',
+    part: '脚部',
+    mainOption: '速度',
+    artifactId: '007'
+  },
 ]
 
 
