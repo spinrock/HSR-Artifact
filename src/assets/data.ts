@@ -1511,4 +1511,52 @@ export const masterData: CharactorArtifactData[] = [
     mainOption: '攻撃力%',
     artifactId: '006'
   },
+  {
+    charactorName: 'アーラン',
+    part: '胴体',
+    mainOption: '会心率',
+    artifactId: '010'
+  },
+  {
+    charactorName: 'アーラン',
+    part: '胴体',
+    mainOption: '会心ダメージ',
+    artifactId: '010'
+  },
+  {
+    charactorName: 'アーラン',
+    part: '脚部',
+    mainOption: '速度',
+    artifactId: '010'
+  },
+  {
+    charactorName: 'アーラン',
+    part: '脚部',
+    mainOption: '攻撃力%',
+    artifactId: '010'
+  },
+  {
+    charactorName: 'アーラン',
+    part: '胴体',
+    mainOption: '会心率',
+    artifactId: '013'
+  },
+  {
+    charactorName: 'アーラン',
+    part: '胴体',
+    mainOption: '会心ダメージ',
+    artifactId: '013'
+  },
+  {
+    charactorName: 'アーラン',
+    part: '脚部',
+    mainOption: '速度',
+    artifactId: '013'
+  },
+  {
+    charactorName: 'アーラン',
+    part: '脚部',
+    mainOption: '攻撃力%',
+    artifactId: '013'
+  },
 ];
