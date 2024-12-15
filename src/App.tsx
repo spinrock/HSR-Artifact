@@ -24,23 +24,14 @@ const App: FC = () => {
 
   return (
     <Fragment>
-      <div className='bg-slate-200 h-16 w-full shadow-md'>
-        <div className='p-3'>
-          <Select
-            onValueChange={setFilterArtifactId}
-            >
-            <SelectTrigger >
-              <SelectValue placeholder="遺物" className='text-2xl'/>
-            </SelectTrigger>
-            <SelectContent>
-              {artifactTypeList.map(artifactType => (
-                <SelectItem value={artifactType.id}>{artifactType.name}</SelectItem>              
-              ))}
-            </SelectContent>
-          </Select>
-        </div>
+      <div className='bg-slate-200 h-16 w-full shadow-md px-6 py-4'>
+        <p
+          className='text-2xl'
+        >
+          HSR-Artifacts
+        </p>
       </div>
-      <div className='pl-4 w-full pt-4'>
+      <div className='px-6 py-4 w-full'>
         <div className='mb-8'>
           <p className='text-xl'>胴体</p>
           <Table 
@@ -52,6 +43,34 @@ const App: FC = () => {
           <Table 
             data={legData}
           />
+        </div>
+      </div>
+      <div className='
+        fixed
+        bottom-0
+        bg-slate-200
+        h-18
+        w-full
+        px-6 py-4
+        '
+      >
+        <div className=''>
+          <Select
+            onValueChange={setFilterArtifactId}
+            >
+            <SelectTrigger 
+              className='bg-white'
+            >
+              <SelectValue placeholder="遺物" className='text-2xl'/>
+            </SelectTrigger>
+            <SelectContent
+              className='bg-white'
+            >
+              {artifactTypeList.map(artifactType => (
+                <SelectItem value={artifactType.id}>{artifactType.name}</SelectItem>              
+              ))}
+            </SelectContent>
+          </Select>
         </div>
       </div>
     </Fragment>
