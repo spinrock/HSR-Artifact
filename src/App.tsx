@@ -14,6 +14,7 @@ import { getBodyData, getLegData } from '@/api/getData';
 
 const App: FC = () => {
   const [filterArtifactId, setFilterArtifactId] = useState<string>('');
+  const artifact = artifactTypeList.find((artifactType) => artifactType.id === filterArtifactId);
   console.log(filterArtifactId);
 
   const data = getArtifact(filterArtifactId);
@@ -32,17 +33,26 @@ const App: FC = () => {
         </p>
       </div>
       <div className='px-6 py-4 w-full'>
-        <div className='mb-8'>
-          <p className='text-xl'>胴体</p>
-          <Table 
-            data={bodyData}
-          />
-        </div>
-        <div>
-          <p className='text-xl'>脚部</p>
-          <Table 
-            data={legData}
-          />
+        <p
+          className='text-2xl'
+        >
+          {artifact?.name || '遺物を選択してください'}
+        </p>
+        <div
+          className=' py-3'
+        >
+          <div className='mb-8'>
+            <p className='text-xl'>胴体</p>
+            <Table 
+              data={bodyData}
+            />
+          </div>
+          <div>
+            <p className='text-xl'>脚部</p>
+            <Table 
+              data={legData}
+            />
+          </div>
         </div>
       </div>
       <div className='
