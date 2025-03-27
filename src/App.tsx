@@ -11,79 +11,53 @@ import {
 import { artifactTypeList } from './assets/data';
 import { getArtifact } from '@/api/getArtifact';
 import { getBodyData, getLegData } from '@/api/getData';
+import { ArtifactUsage } from './interfaces/Artifact';
+
+const Section: FC<{ title: string; data: ArtifactUsage[] }> = ({ title, data }) => (
+  <div className='mb-8'>
+    <p className='text-xl'>{title}</p>
+    <Table data={data} />
+  </div>
+);
 
 const App: FC = () => {
   const [filterArtifactId, setFilterArtifactId] = useState<string>('');
   const artifact = artifactTypeList.find((artifactType) => artifactType.id === filterArtifactId);
-  console.log(filterArtifactId);
 
   const data = getArtifact(filterArtifactId);
-
   const bodyData = getBodyData(data);
   const legData = getLegData(data);
-  console.log(bodyData)
 
   return (
     <Fragment>
       <div className='bg-slate-200 h-16 w-full shadow-md px-6 py-4'>
-        <p
-          className='text-2xl'
-        >
-          HSR-Artifacts
-        </p>
+        <p className='text-2xl'>HSR-Artifacts</p>
       </div>
       <div className='px-6 py-4 w-full'>
-        <p
-          className='text-2xl'
-        >
-          {artifact?.name || '遺物を選択してください'}
-        </p>
-        <div
-          className=' py-3'
-        >
-          <div className='mb-8'>
-            <p className='text-xl'>胴体</p>
-            <Table 
-              data={bodyData}
-            />
-          </div>
-          <div>
-            <p className='text-xl'>脚部</p>
-            <Table 
-              data={legData}
-            />
-          </div>
+        <p className='text-2xl'>{artifact?.name || '遺物を選択してください'}</p>
+        <div className='py-3'>
+          <Section title="胴体" data={bodyData} />
+          <Section title="脚部" data={legData} />
         </div>
       </div>
-      <div className='
-        fixed
-        bottom-0
-        bg-slate-200
-        h-18
-        w-full
-        px-6 py-4
-        '
-      >
-        <div className=''>
-          <Select
-            onValueChange={setFilterArtifactId}
-            >
-            <SelectTrigger 
-              className='bg-white'
-            >
-              <SelectValue placeholder="遺物" className='text-2xl'/>
+      <div className='fixed bottom-0 bg-slate-200 h-18 w-full px-6 py-4'>
+        <div>
+          <Select onValueChange={setFilterArtifactId}>
+            <SelectTrigger className='bg-white'>
+              <SelectValue placeholder="遺物" className='text-2xl' />
             </SelectTrigger>
-            <SelectContent
-              className='bg-white'
-            >
+            <SelectContent className='bg-white'>
               {artifactTypeList.map(artifactType => (
-                <SelectItem value={artifactType.id}>{artifactType.name}</SelectItem>              
+                <SelectItem key={artifactType.id} value={artifactType.id}>
+                  {artifactType.name}
+                </SelectItem>
               ))}
             </SelectContent>
           </Select>
         </div>
       </div>
     </Fragment>
-  )
-}
+  );
+};
+
 export default App;
