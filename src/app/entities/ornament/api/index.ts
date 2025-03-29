@@ -1,1 +1,1 @@
-export * from './getArtifact';
+export * from './getOrnament';

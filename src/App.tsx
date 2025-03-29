@@ -12,7 +12,7 @@ import { getArtifact } from '@/api/getArtifact';
 import { getBodyData, getLegData } from '@/api/getData';
 import { ArtifactUsage } from './interfaces/Artifact';
 import { getArtifactList } from '@/app/entities/artifact/api';
-import { getOrnamentList } from '@/app/entities/ornament/api/getOrnament';
+import { getOrnamentList } from '@/app/entities/ornament/api';
 
 const Section: FC<{ title: string; data: ArtifactUsage[] }> = ({ title, data }) => (
   <div className='mb-8'>
