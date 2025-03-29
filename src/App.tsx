@@ -12,6 +12,7 @@ import { getArtifact } from '@/api/getArtifact';
 import { getBodyData, getLegData } from '@/api/getData';
 import { ArtifactUsage } from './interfaces/Artifact';
 import { getArtifactList } from '@/app/entities/artifact/api';
+import { getOrnamentList } from '@/app/entities/ornament/api/getOrnament';
 
 const Section: FC<{ title: string; data: ArtifactUsage[] }> = ({ title, data }) => (
   <div className='mb-8'>
@@ -22,7 +23,8 @@ const Section: FC<{ title: string; data: ArtifactUsage[] }> = ({ title, data }) 
 
 const App: FC = () => {
   const [filterArtifactId, setFilterArtifactId] = useState<string>('');
-  const artifactTypeList = getArtifactList();
+  // TODO: プルダウンリストの改善は後続Issueで実施予定
+  const artifactTypeList = [...getArtifactList(), ...getOrnamentList()];
 
   const artifact = artifactTypeList.find((artifactType) => artifactType.id === filterArtifactId);
   const data = getArtifact(filterArtifactId);
