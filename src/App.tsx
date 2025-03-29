@@ -8,10 +8,10 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
-import { artifactTypeList } from './assets/data';
 import { getArtifact } from '@/api/getArtifact';
 import { getBodyData, getLegData } from '@/api/getData';
 import { ArtifactUsage } from './interfaces/Artifact';
+import { getArtifactList } from '@/app/entities/artifact/api';
 
 const Section: FC<{ title: string; data: ArtifactUsage[] }> = ({ title, data }) => (
   <div className='mb-8'>
@@ -22,8 +22,9 @@ const Section: FC<{ title: string; data: ArtifactUsage[] }> = ({ title, data }) 
 
 const App: FC = () => {
   const [filterArtifactId, setFilterArtifactId] = useState<string>('');
-  const artifact = artifactTypeList.find((artifactType) => artifactType.id === filterArtifactId);
+  const artifactTypeList = getArtifactList();
 
+  const artifact = artifactTypeList.find((artifactType) => artifactType.id === filterArtifactId);
   const data = getArtifact(filterArtifactId);
   const bodyData = getBodyData(data);
   const legData = getLegData(data);
