@@ -1,7 +1,7 @@
 import { charactorDataset } from "@/app/entities/charactor/config";
 
-const getCharactor = () => {
+const getCharactorList = () => {
   return charactorDataset;
 }
 
-export { getCharactor };
+export { getCharactorList };
