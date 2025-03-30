@@ -1,4 +1,4 @@
-import { Artifact } from "@/app/entities/artifact/model";
+import type { Artifact } from "@/app/entities/artifact/model";
 
 export const artifactDataset: Artifact[] = [
   { id : '001', name:	'雪の密林の狩人'},
