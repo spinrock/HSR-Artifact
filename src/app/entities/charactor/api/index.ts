@@ -1,1 +1,1 @@
-export * from './getCharactor';
+export * from './getCharactorList';

@@ -8,9 +8,7 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
-import { getArtifact } from '@/api/getArtifact';
-import { getBodyData, getLegData } from '@/api/getData';
-import { ArtifactUsage } from './interfaces/Artifact';
+import { type ArtifactUsage, getArtifactUsage } from '@/app/features/usageArtifact/model';
 import { getArtifactList } from '@/app/entities/artifact/api';
 import { getOrnamentList } from '@/app/entities/ornament/api';
 
@@ -23,13 +21,13 @@ const Section: FC<{ title: string; data: ArtifactUsage[] }> = ({ title, data }) 
 
 const App: FC = () => {
   const [filterArtifactId, setFilterArtifactId] = useState<string>('');
-  // TODO: プルダウンリストの改善は後続Issueで実施予定
-  const artifactTypeList = [...getArtifactList(), ...getOrnamentList()];
 
+  const artifactTypeList = [...getArtifactList(), ...getOrnamentList()];
   const artifact = artifactTypeList.find((artifactType) => artifactType.id === filterArtifactId);
-  const data = getArtifact(filterArtifactId);
-  const bodyData = getBodyData(data);
-  const legData = getLegData(data);
+
+  const artifactUsage = getArtifactUsage(filterArtifactId);
+  const bodyData = artifactUsage.body;
+  const footData = artifactUsage.foot;
 
   return (
     <Fragment>
@@ -40,7 +38,7 @@ const App: FC = () => {
         <p className='text-2xl'>{artifact?.name || '遺物を選択してください'}</p>
         <div className='py-3'>
           <Section title="胴体" data={bodyData} />
-          <Section title="脚部" data={legData} />
+          <Section title="脚部" data={footData} />
         </div>
       </div>
       <div className='fixed bottom-0 bg-slate-200 h-18 w-full px-6 py-4'>
