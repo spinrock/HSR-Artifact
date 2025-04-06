@@ -1,27 +1,23 @@
 import { isArtifactId } from '@/app/entities/artifact/model';
-import type { Buildset } from '@/app/entities/charactor/model';
+import type { Buildset, BodyOption, FootOption, SphereOption, RopeOption } from '@/app/entities/charactor/model';
 import { isOrnamentId } from '@/app/entities/ornament/model';
 import type {
   ArtifactUsage,
   ArtifactUsageResult,
-  BodyOption,
-  FootOption,
-  RopeOption, // Placeholder
-  SphereOption, // Placeholder
 } from './interfaces';
 import {
   BODY_OPTIONS,
   FOOT_OPTIONS,
-  ROPE_OPTIONS, // Placeholder
-  SPHERE_OPTIONS, // Placeholder
+  ROPE_OPTIONS,
+  SPHERE_OPTIONS,
 } from './interfaces';
 
 /**
- * Calculates the usage statistics for a given list of options based on buildsets.
- * @param buildsets - The list of character buildsets.
- * @param optionsList - The list of possible main options for the artifact/ornament piece.
- * @param getOptionsFromBuildset - A function that extracts the relevant options array from a single buildset.
- * @returns An array of ArtifactUsage objects.
+ * ビルドセットに基づいて、指定されたオプションリストの使用統計を計算します。
+ * @param buildsets - キャラクタービルドセットのリスト。
+ * @param optionsList - 遺物/オーナメントの部位のメインオプションのリスト。
+ * @param getOptionsFromBuildset - 単一のビルドセットから関連するオプション配列を抽出する関数。
+ * @returns ArtifactUsage オブジェクトの配列。
  */
 const calculateUsageData = <T extends string>(
   buildsets: Buildset[],
@@ -37,11 +33,11 @@ const calculateUsageData = <T extends string>(
 };
 
 /**
- * Calculates the usage statistics for a specific artifact or ornament set.
- * @param artifactOrOrnamentId - The ID of the artifact or ornament set.
- * @param allBuildsets - A list of all character buildsets.
- * @returns An ArtifactUsageResult object containing usage data for each piece.
- * @throws Error if the provided ID is not a valid artifact or ornament ID.
+ * 特定の遺物またはオーナメントセットの使用統計を計算します。
+ * @param artifactOrOrnamentId - 遺物またはオーナメントセットのID。
+ * @param allBuildsets - すべてのキャラクタービルドセットのリスト。
+ * @returns 各部位の使用データを含む ArtifactUsageResult オブジェクト。
+ * @throws 提供されたIDが有効な遺物またはオーナメントIDでない場合にエラーをスローします。
  */
 const getArtifactUsage = (
   artifactOrOrnamentId: string,
@@ -75,7 +71,7 @@ const getArtifactUsage = (
       (buildset) => buildset.artifacts.footOptions
     );
 
-    // Sphere and Rope are not applicable to regular artifacts
+    // オーブと縄は遺物には適用されません
     return {
       ...initialResult,
       body: bodyUsageData,
@@ -88,19 +84,18 @@ const getArtifactUsage = (
       buildset.ornaments.ornamentIds.includes(artifactOrOrnamentId)
     );
 
-    // TODO: Replace placeholders once SphereOption/RopeOption and their extraction logic are defined
     const sphereUsageData = calculateUsageData<SphereOption>(
       relevantBuildsets,
-      SPHERE_OPTIONS, // Placeholder options
-      (buildset) => buildset.ornaments.sphereOptions // Placeholder accessor
+      SPHERE_OPTIONS,
+      (buildset) => buildset.ornaments.sphereOptions
     );
     const ropeUsageData = calculateUsageData<RopeOption>(
       relevantBuildsets,
-      ROPE_OPTIONS, // Placeholder options
-      (buildset) => buildset.ornaments.ropeOptions // Placeholder accessor
+      ROPE_OPTIONS,
+      (buildset) => buildset.ornaments.ropeOptions
     );
 
-    // Body and Foot are not applicable to ornaments
+    // 胴と脚はオーナメントには適用されません
     return {
       ...initialResult,
       sphere: sphereUsageData,
@@ -108,8 +103,6 @@ const getArtifactUsage = (
     };
   }
 
-  // This line should theoretically be unreachable due to the initial check,
-  // but included for exhaustive type checking and safety.
   return initialResult;
 };
 

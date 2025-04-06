@@ -28,4 +28,4 @@ type Charactor = {
   buldsets : Buildset[];
 };
 
-export type { Buildset, Charactor, BodyOption, FootOption };
+export type { Buildset, Charactor, BodyOption, FootOption, SphereOption, RopeOption };
