@@ -11,6 +11,8 @@ import {
 import { type ArtifactUsage, getArtifactUsage } from '@/app/features/usageArtifact/model';
 import { getArtifactList } from '@/app/entities/artifact/api';
 import { getOrnamentList } from '@/app/entities/ornament/api';
+import { getBuildsetList } from '@/app/entities/charactor/model';
+import { getCharactorList } from '@/app/entities/charactor/api';
 
 const Section: FC<{ title: string; data: ArtifactUsage[] }> = ({ title, data }) => (
   <div className='mb-8'>
@@ -20,12 +22,12 @@ const Section: FC<{ title: string; data: ArtifactUsage[] }> = ({ title, data }) 
 );
 
 const App: FC = () => {
-  const [filterArtifactId, setFilterArtifactId] = useState<string>('');
+  const [filterArtifactId, setFilterArtifactId] = useState<string>(getArtifactList()[0].id);
 
   const artifactTypeList = [...getArtifactList(), ...getOrnamentList()];
   const artifact = artifactTypeList.find((artifactType) => artifactType.id === filterArtifactId);
 
-  const artifactUsage = getArtifactUsage(filterArtifactId);
+  const artifactUsage = getArtifactUsage(filterArtifactId, getBuildsetList(getCharactorList()));
   const bodyData = artifactUsage.body;
   const footData = artifactUsage.foot;
 
