@@ -3,7 +3,7 @@ import type { Charactor } from "@/app/entities/charactor/model";
 export const genkyo: Charactor = {
   id: '2008',
   name: '彦卿',
-  buldsets: [
+  buildsets: [
     {
       id: '2008-1',
       artifacts: {

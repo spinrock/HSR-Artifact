@@ -3,7 +3,7 @@ import type { Charactor } from "@/app/entities/charactor/model";
 export const himeko: Charactor = {
   id: '2003',
   name: '姫子',
-  buldsets: [
+  buildsets: [
     {
       id: '2003-1',
       artifacts: {

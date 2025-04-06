@@ -3,7 +3,7 @@ import type { Charactor } from "@/app/entities/charactor/model";
 export const jepado: Charactor = {
   id: '2006',
   name: 'ジェパード',
-  buldsets: [
+  buildsets: [
     {
       id: '2006-1',
       artifacts: {

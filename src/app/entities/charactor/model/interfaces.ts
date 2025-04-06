@@ -25,7 +25,7 @@ type Charactor = {
   name : string;
   type?: string;
   destiny?: string;
-  buldsets : Buildset[];
+  buildsets : Buildset[];
 };
 
-export type { Buildset, Charactor };
+export type { Buildset, Charactor, BodyOption, FootOption, SphereOption, RopeOption };
