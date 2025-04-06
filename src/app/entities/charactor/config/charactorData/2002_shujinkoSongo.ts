@@ -3,7 +3,7 @@ import type { Charactor } from "@/app/entities/charactor/model";
 export const shujinkoSongo: Charactor = {
   id: '2002',
   name: '主人公(存護)',
-  buldsets: [
+  buildsets: [
     {
       id: '2002-1',
       artifacts: {

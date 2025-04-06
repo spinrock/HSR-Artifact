@@ -3,7 +3,7 @@ import type { Charactor } from "@/app/entities/charactor/model";
 export const shujinkoKaimetsu: Charactor = {
   id: '2001',
   name: '主人公(壊滅)',
-  buldsets: [
+  buildsets: [
     {
       id: '2001-1',
       artifacts: {
