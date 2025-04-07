@@ -11,6 +11,16 @@ import { kurara } from "./charactorData/2007_kurara";
 import { genkyo } from "./charactorData/2008_genkyo";
 import { byakuro } from "./charactorData/2009_byakuro";
 import { zere } from "./charactorData/2010_zere";
+import { mitsukinanoka } from "./charactorData/2011_mitsukinanoka";
+import { tanko } from "./charactorData/2012_tanko";
+import { aran } from "./charactorData/2013_aran";
+import { aster } from "./charactorData/2014_aster";
+import { helta } from "./charactorData/2015_helta";
+import { natasha } from "./charactorData/2016_natasha";
+import { sebal } from "./charactorData/2017_sebal";
+import { pera } from "./charactorData/2018_pera";
+import { sanpo } from "./charactorData/2019_sanpo";
+import { huck } from "./charactorData/2020_huck";
 
 export const charactorDataset: Charactor[] = [
   shujinkoKaimetsu,
@@ -22,5 +32,15 @@ export const charactorDataset: Charactor[] = [
   kurara,
   genkyo,
   byakuro,
-  zere
+  zere,
+  mitsukinanoka,
+  tanko,
+  aran,
+  aster,
+  helta,
+  natasha,
+  sebal,
+  pera,
+  sanpo,
+  huck
 ];
