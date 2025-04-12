@@ -61,6 +61,15 @@ import { hisho } from "./charactorData/2057_hisho";
 import { reisa } from "./charactorData/2058_reisa";
 import { moze } from "./charactorData/2059_moze";
 import { ranpa } from "./charactorData/2060_ranpa";
+import { sunday } from "./charactorData/2061_sunday";
+import { kibonoSasuraibito } from "./charactorData/2062_kibonoSasuraibito";
+import { madamHelta } from "./charactorData/2063_madamHelta";
+import { agraia } from "./charactorData/2064_agraia";
+import { shujinkoKioku } from "./charactorData/2065_shujinkoKioku";
+import { toribi } from "./charactorData/2066_toribi";
+import { modhis } from "./charactorData/2067_modhis";
+import { castoris } from "./charactorData/2068_castoris";
+import { anaiks } from "./charactorData/2069_anaiks";
 
 export const charactorDataset: Charactor[] = [
   shujinkoKaimetsu,
@@ -122,5 +131,14 @@ export const charactorDataset: Charactor[] = [
   hisho,
   reisa,
   moze,
-  ranpa
+  ranpa,
+  sunday,
+  kibonoSasuraibito,
+  madamHelta,
+  agraia,
+  shujinkoKioku,
+  toribi,
+  modhis,
+  castoris,
+  anaiks
 ];
