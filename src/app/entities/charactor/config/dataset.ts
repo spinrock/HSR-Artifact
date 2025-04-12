@@ -51,6 +51,16 @@ import { abenchurin } from "./charactorData/2047_abenchurin";
 import { gyaraga } from "./charactorData/2048_gyaraga";
 import { robin } from "./charactorData/2049_robin";
 import { boothill } from "./charactorData/2050_boothill";
+import { hotaru } from "./charactorData/2051_hotaru";
+import { jaide } from "./charactorData/2052_jaide";
+import { shujinkoChowa } from "./charactorData/2053_shujinkoChowa";
+import { unri } from "./charactorData/2054_unri";
+import { shokyu } from "./charactorData/2055_shokyu";
+import { mitsukinanokaJunshu } from "./charactorData/2056_mitsukinanokaJunshu";
+import { hisho } from "./charactorData/2057_hisho";
+import { reisa } from "./charactorData/2058_reisa";
+import { moze } from "./charactorData/2059_moze";
+import { ranpa } from "./charactorData/2060_ranpa";
 
 export const charactorDataset: Charactor[] = [
   shujinkoKaimetsu,
@@ -102,5 +112,15 @@ export const charactorDataset: Charactor[] = [
   abenchurin,
   gyaraga,
   robin,
-  boothill
+  boothill,
+  hotaru,
+  jaide,
+  shujinkoChowa,
+  unri,
+  shokyu,
+  mitsukinanokaJunshu,
+  hisho,
+  reisa,
+  moze,
+  ranpa
 ];
