@@ -8,36 +8,51 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
-import { artifactTypeList } from './assets/data';
-import { getArtifact } from '@/api/getArtifact';
-import { getBodyData, getLegData } from '@/api/getData';
-import { ArtifactUsage } from './interfaces/Artifact';
+import { isArtifactId } from '@/app/entities/artifact/model';
+import { getArtifactList } from '@/app/entities/artifact/api';
+import { getOrnamentList } from '@/app/entities/ornament/api';
+import { getBuildsetList } from '@/app/entities/charactor/model';
+import { getCharactorList } from '@/app/entities/charactor/api';
+import { type ArtifactUsage, getArtifactUsage } from '@/app/features/usageArtifact/model';
 
 const Section: FC<{ title: string; data: ArtifactUsage[] }> = ({ title, data }) => (
-  <div className='mb-8'>
-    <p className='text-xl'>{title}</p>
+  <div className='mb-4'>
+    <p className='text-lg'>{title}</p>
     <Table data={data} />
   </div>
 );
 
 const App: FC = () => {
-  const [filterArtifactId, setFilterArtifactId] = useState<string>('');
+  const [filterArtifactId, setFilterArtifactId] = useState<string>(getArtifactList()[0].id);
+
+  const artifactTypeList = [...getArtifactList(), ...getOrnamentList()];
   const artifact = artifactTypeList.find((artifactType) => artifactType.id === filterArtifactId);
 
-  const data = getArtifact(filterArtifactId);
-  const bodyData = getBodyData(data);
-  const legData = getLegData(data);
+  const artifactUsage = getArtifactUsage(filterArtifactId, getBuildsetList(getCharactorList()));
+  const bodyData = artifactUsage.body;
+  const footData = artifactUsage.foot;
+  const sphereData = artifactUsage.sphere;
+  const ropeData = artifactUsage.rope;
 
   return (
     <Fragment>
-      <div className='bg-slate-200 h-16 w-full shadow-md px-6 py-4'>
-        <p className='text-2xl'>HSR-Artifacts</p>
+      <div className='bg-slate-200 h-8 w-full shadow-md px-6 py-1'>
+        <p className='text-lg'>HSR-Artifacts</p>
       </div>
-      <div className='px-6 py-4 w-full'>
-        <p className='text-2xl'>{artifact?.name || '遺物を選択してください'}</p>
-        <div className='py-3'>
-          <Section title="胴体" data={bodyData} />
-          <Section title="脚部" data={legData} />
+      <div className='px-6 py-2 w-full'>
+        <p className='text-lg'>{artifact?.name || '遺物を選択してください'}</p>
+        <div className='py-2'>
+          {isArtifactId(filterArtifactId) ?
+          <>
+            <Section title="胴体" data={bodyData} />
+            <Section title="脚部" data={footData} />
+          </>
+          :
+          <>
+            <Section title="オーブ" data={sphereData} />
+            <Section title="縄" data={ropeData} />
+          </>
+          }
         </div>
       </div>
       <div className='fixed bottom-0 bg-slate-200 h-18 w-full px-6 py-4'>
