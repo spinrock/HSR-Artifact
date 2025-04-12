@@ -41,6 +41,16 @@ import { fofo } from "./charactorData/2037_fofo";
 import { arujenthi } from "./charactorData/2038_arujenthi";
 import { kana } from "./charactorData/2039_kana";
 import { ruanmei } from "./charactorData/2040_ruanmei";
+import { drRaishio } from "./charactorData/2041_drRaishio";
+import { setsui } from "./charactorData/2042_setsui";
+import { blackSwan } from "./charactorData/2043_blackSwan";
+import { hanabi } from "./charactorData/2044_hanabi";
+import { misya } from "./charactorData/2045_misya";
+import { yomi } from "./charactorData/2046_yomi";
+import { abenchurin } from "./charactorData/2047_abenchurin";
+import { gyaraga } from "./charactorData/2048_gyaraga";
+import { robin } from "./charactorData/2049_robin";
+import { boothill } from "./charactorData/2050_boothill";
 
 export const charactorDataset: Charactor[] = [
   shujinkoKaimetsu,
@@ -82,5 +92,15 @@ export const charactorDataset: Charactor[] = [
   fofo,
   arujenthi,
   kana,
-  ruanmei
+  ruanmei,
+  drRaishio,
+  setsui,
+  blackSwan,
+  hanabi,
+  misya,
+  yomi,
+  abenchurin,
+  gyaraga,
+  robin,
+  boothill
 ];
